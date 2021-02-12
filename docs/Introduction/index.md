@@ -10,6 +10,24 @@ There are different components to SDL that make everything work. The following d
 ![High Level Diagram](assets/HighLevelDiagram.png) 
 
 
+```objc
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
+    }
+    return 0;
+}
+```
+
+```swift
+// Hello, World! Program
+import Swift
+print("Hello, World!")
+```
+
 
 ## Sections
 
