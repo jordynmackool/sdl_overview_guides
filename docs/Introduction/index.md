@@ -11,22 +11,46 @@ There are different components to SDL that make everything work. The following d
 
 
 ```objc
-#import <Foundation/Foundation.h>
+ #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+ int main(int argc, const char * argv[]) {
+     @autoreleasepool {
+         // insert code here...
+         NSLog(@"Hello, World!");
+     }
+     return 0;
+ }
+ ```
+
+ ```swift
+ // Hello, World! Program
+ import Swift
+ print("Hello, World!")
+ ```
+
+```java
+AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
+...
+manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
+```
+&nbsp;
+```java
+sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestListener() {
+    @Override
+    public void onRequest(RPCRequest request) {
+        ButtonPress buttonPress = (ButtonPress) request;
+
+        ButtonPressResponse response = new ButtonPressResponse();
+        response.setSuccess(true);
+        response.setResultCode(Result.SUCCESS);
+        response.setCorrelationID(buttonPress.getCorrelationID());
+        response.setInfo("<#Use to provide more information about an error#>");
+        sdlManager.sendRPC(response);
     }
-    return 0;
-}
+});
 ```
 
-```swift
-// Hello, World! Program
-import Swift
-print("Hello, World!")
-```
+
 
 
 ## Sections
