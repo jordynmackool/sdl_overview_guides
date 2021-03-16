@@ -9,23 +9,23 @@ There are different components to SDL that make everything work. The following d
 <br><br>
 ![High Level Diagram](assets/HighLevelDiagram.png) 
 
-
 ```objc
- #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 
- int main(int argc, const char * argv[]) {
-     @autoreleasepool {
-         // insert code here...
-         NSLog(@"Hello, World!");
-     }
-     return 0;
- }
- ```
- ```swift
- // Hello, World! Program
- import Swift
- print("Hello, World!")
- ```
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
+    }
+    return 0;
+}
+```
+```swift
+// Hello, World! Program
+import Swift
+print("Hello, World!")
+```
+
 
 ```java
 AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
