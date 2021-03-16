@@ -26,15 +26,13 @@ import Swift
 print("Hello, World!")
 ```
 
+&nbsp;
 
 ```java
 AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
 ...
 manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
 ```
-
-
-&nbsp;
 ```java
 sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestListener() {
     @Override
