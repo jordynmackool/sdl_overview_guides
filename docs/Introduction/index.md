@@ -21,7 +21,6 @@ There are different components to SDL that make everything work. The following d
      return 0;
  }
  ```
-
  ```swift
  // Hello, World! Program
  import Swift
@@ -33,6 +32,8 @@ AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toStri
 ...
 manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
 ```
+
+
 &nbsp;
 ```java
 sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestListener() {
@@ -49,9 +50,6 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
     }
 });
 ```
-
-
-
 
 ## Sections
 
