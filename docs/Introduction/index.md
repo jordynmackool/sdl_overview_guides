@@ -33,6 +33,7 @@ AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toStri
 ...
 manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
 ```
+
 &nbsp;
 
 ```java
@@ -50,6 +51,8 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
     }
 });
 ```
+
+&nbsp;
 
 ## Sections
 
