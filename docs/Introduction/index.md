@@ -56,6 +56,7 @@ const manifest = new SDL.rpc.structs.AppServiceManifest(SDL.rpc.enums.AppService
 manifest.setHandledRpcs([SDL.rpc.enums.FunctionID.ButtonPress]);
 ```
 &nbsp;
+
 ```js
 sdlManager.addRpcListener(SDL.rpc.enums.FunctionID.ButtonPress, (message) => {
     if (message.getMessageType() === SDL.rpc.enums.MessageType.request) {
