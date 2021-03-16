@@ -49,6 +49,7 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
     }
 });
 ```
+&nbsp;
 
 ```js
 const manifest = new SDL.rpc.structs.AppServiceManifest(SDL.rpc.enums.AppServiceType.MEDIA);
