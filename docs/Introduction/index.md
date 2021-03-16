@@ -50,6 +50,30 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
 });
 ```
 
+```js
+const manifest = new SDL.rpc.structs.AppServiceManifest(SDL.rpc.enums.AppServiceType.MEDIA);
+...
+manifest.setHandledRpcs([SDL.rpc.enums.FunctionID.ButtonPress]);
+```
+&nbsp;
+```js
+sdlManager.addRpcListener(SDL.rpc.enums.FunctionID.ButtonPress, (message) => {
+    if (message.getMessageType() === SDL.rpc.enums.MessageType.request) {
+        const buttonPress = message;
+
+        const response = new SDL.rpc.messages.ButtonPressResponse()
+            .setSuccess(true)
+            .setResultCode(SDL.rpc.enums.Result.SUCCESS)
+            .setCorrelationID(buttonPress.getCorrelationId())
+            .setInfo('<#Use to provide more information about an error#>');
+
+        // sdl_javascript_suite v1.1+
+        sdlManager.sendRpcResolve(response);
+        // Pre sdl_javascript_suite v1.1
+        sdlManager.sendRpc(response);
+    }
+});
+```
 
 ## Sections
 
