@@ -20,23 +20,17 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
-
-&nbsp;
-
 ```swift
 // Hello, World! Program
 import Swift
 print("Hello, World!")
 ```
 
-&nbsp;
-
 ```java
 AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
 ...
 manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
 ```
-
 &nbsp;
 
 ```java
@@ -55,7 +49,6 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
 });
 ```
 
-&nbsp;
 
 ## Sections
 
