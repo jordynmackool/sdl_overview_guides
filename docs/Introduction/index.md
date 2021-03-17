@@ -25,15 +25,11 @@ int main(int argc, const char * argv[]) {
 import Swift
 print("Hello, World!")
 ```
-&nbsp;
-
 ```java
 AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
 ...
 manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
 ```
-&nbsp;
-
 ```java
 sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestListener() {
     @Override
@@ -49,15 +45,11 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
     }
 });
 ```
-&nbsp;
-
 ```js
 const manifest = new SDL.rpc.structs.AppServiceManifest(SDL.rpc.enums.AppServiceType.MEDIA);
 ...
 manifest.setHandledRpcs([SDL.rpc.enums.FunctionID.ButtonPress]);
 ```
-&nbsp;
-
 ```js
 sdlManager.addRpcListener(SDL.rpc.enums.FunctionID.ButtonPress, (message) => {
     if (message.getMessageType() === SDL.rpc.enums.MessageType.request) {
