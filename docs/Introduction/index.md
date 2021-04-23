@@ -8,6 +8,21 @@ There are different components to SDL that make everything work. The following d
 
 <br><br>
 ![High Level Diagram](assets/HighLevelDiagram.png) 
+Sample with code: 
+
+|~
+```objc
+- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
+}
+```
+```swift
+fileprivate var firstHMILevel: SDLHMILevel = .none
+func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
+}
+```
+~|
+
+
 
 ```objc
 #import <Foundation/Foundation.h>
