@@ -11,7 +11,6 @@ There are different components to SDL that make everything work. The following d
 Sample with code:
 
 |~
-
 ```objc
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
 }
@@ -22,6 +21,7 @@ func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
 }
 ```
 |~
+
 ```objc
 #import <Foundation/Foundation.h>
 int main(int argc, const char * argv[]) {
