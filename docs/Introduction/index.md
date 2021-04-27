@@ -29,6 +29,7 @@ int main(int argc, const char * argv[]) {
    return 0;
 }
 ```
+|~
 ```swift
 // Hello, World! Program
 import Swift
@@ -53,6 +54,8 @@ sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestList
    }
 });
 ```
+|~
+
 ```js
 const manifest = new SDL.rpc.structs.AppServiceManifest(SDL.rpc.enums.AppServiceType.MEDIA);
 ...
