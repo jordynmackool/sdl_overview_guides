@@ -22,6 +22,18 @@ func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
 ```
 ~|
 
+|~
+```objc
+- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
+}
+```
+```swift
+fileprivate var firstHMILevel: SDLHMILevel = .none
+func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
+}
+```
+~|
+
 ## Sections
 
 ### Supported Platforms
