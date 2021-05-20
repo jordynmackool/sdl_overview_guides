@@ -36,6 +36,7 @@ func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
   <div id="docs-gallery" class="vanilla-zoom">
     <div class="carousel-sidebar">
       <img src="http://outdoornebraska.gov/wp-content/plugins/wp-media-folder/assets/images/default.png" alt="Logistics 1" class="small-preview" />
+       <p class="zoomed-text">This is the image desc or alternative text.</p>
       <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" alt="Ride Sharing 6" class="small-preview" />
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Default-welcomer.png" alt="Logistics 1" class="small-preview" />
       <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" alt="Ride Sharing 6" class="small-preview" />
@@ -44,8 +45,6 @@ func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
     </div>
     <div class="zoomed-desc">
       <div class="zoomed-image"></div>
-      <p class="zoomed-text">This is the image desc or alternative text.</p>
-    </div>
   </div>
 </div>
 
