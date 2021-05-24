@@ -6,49 +6,6 @@ SmartDeviceLink is a connectivity protocol and set of associated libraries that 
 
 There are different components to SDL that make everything work. The following diagram shows how some of those pieces are connected. 
 
-<br><br>
-![High Level Diagram](assets/HighLevelDiagram.png) 
-
-|~
-```objc
-- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
-}
-```
-```swift
-fileprivate var firstHMILevel: SDLHMILevel = .none
-func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
-}
-```
-~|
-|~
-```objc
-- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
-}
-```
-```swift
-fileprivate var firstHMILevel: SDLHMILevel = .none
-func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
-}
-```
-~|
-
-<div class="carousel-container">
-  <div id="docs-gallery" class="vanilla-zoom">
-    <div class="carousel-sidebar">
-      <img src="http://outdoornebraska.gov/wp-content/plugins/wp-media-folder/assets/images/default.png" alt="Logistics 1" class="small-preview" />
-       <p class="zoomed-text">This is the image desc or alternative text.</p>
-      <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" alt="Ride Sharing 6" class="small-preview" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Default-welcomer.png" alt="Logistics 1" class="small-preview" />
-      <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" alt="Ride Sharing 6" class="small-preview" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Default-welcomer.png" alt="Logistics 1" class="small-preview" />
-      <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" alt="Ride Sharing 6" class="small-preview" />
-    </div>
-    <div class="zoomed-desc">
-      <div class="zoomed-image"></div>
-  </div>
-</div>
-
-
 ## Sections
 
 ### Supported Platforms
@@ -91,3 +48,17 @@ This section contains items that aren't hard requirements but are best practices
 ### FAQ
 
 This section covers a few of the commonly asked questions around SDL.
+
+
+
+|~
+```objc
+- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
+}
+```
+```swift
+fileprivate var firstHMILevel: SDLHMILevel = .none
+func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
+}
+```
+~|
