@@ -50,8 +50,7 @@ This section contains items that aren't hard requirements but are best practices
 This section covers a few of the commonly asked questions around SDL.
 
 
-Sample with code:
-|~
+
 ```objc
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
 }
@@ -60,60 +59,4 @@ Sample with code:
 fileprivate var firstHMILevel: SDLHMILevel = .none
 func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
 }
-```
-~|
-```objc
-#import <Foundation/Foundation.h>
-int main(int argc, const char * argv[]) {
-   @autoreleasepool {
-       // insert code here...
-       NSLog(@"Hello, World!");
-   }
-   return 0;
-}
-```
-```swift
-// Hello, World! Program
-import Swift
-print("Hello, World!")
-```
-```java
-AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
-...
-manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
-```
-```java
-sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestListener() {
-   @Override
-   public void onRequest(RPCRequest request) {
-       ButtonPress buttonPress = (ButtonPress) request;
-       ButtonPressResponse response = new ButtonPressResponse();
-       response.setSuccess(true);
-       response.setResultCode(Result.SUCCESS);
-       response.setCorrelationID(buttonPress.getCorrelationID());
-       response.setInfo("<#Use to provide more information about an error#>");
-       sdlManager.sendRPC(response);
-   }
-});
-```
-```js
-const manifest = new SDL.rpc.structs.AppServiceManifest(SDL.rpc.enums.AppServiceType.MEDIA);
-...
-manifest.setHandledRpcs([SDL.rpc.enums.FunctionID.ButtonPress]);
-```
-```js
-sdlManager.addRpcListener(SDL.rpc.enums.FunctionID.ButtonPress, (message) => {
-   if (message.getMessageType() === SDL.rpc.enums.MessageType.request) {
-       const buttonPress = message;
-       const response = new SDL.rpc.messages.ButtonPressResponse()
-           .setSuccess(true)
-           .setResultCode(SDL.rpc.enums.Result.SUCCESS)
-           .setCorrelationID(buttonPress.getCorrelationId())
-           .setInfo('<#Use to provide more information about an error#>');
-       // sdl_javascript_suite v1.1+
-       sdlManager.sendRpcResolve(response);
-       // Pre sdl_javascript_suite v1.1
-       sdlManager.sendRpc(response);
-   }
-});
 ```
