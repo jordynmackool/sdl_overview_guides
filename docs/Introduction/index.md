@@ -45,17 +45,13 @@ Connected applications can augment a head unit's service offerings (such as navi
 
 This section contains items that aren't hard requirements but are best practices to ensure that the widest variety of apps work properly with your head unit.
 
+```objc
+- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
+}
+```
 ### FAQ
 
 This section covers a few of the commonly asked questions around SDL.
 Sample with code:
 
-```objc
-- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
-}
-```
-```swift
-fileprivate var firstHMILevel: SDLHMILevel = .none
-func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
-}
-```
+```swift fileprivate var firstHMILevel: SDLHMILevel = .none func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) { } ```
