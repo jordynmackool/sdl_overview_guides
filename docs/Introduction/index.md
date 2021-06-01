@@ -49,6 +49,7 @@ This section contains items that aren't hard requirements but are best practices
 
 This section covers a few of the commonly asked questions around SDL.
 
+# Header 1
 |~
 ```objc
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
@@ -60,6 +61,7 @@ func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
 }
 ```
 ~|
+Some text
 |~
 ```objc
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
@@ -71,3 +73,16 @@ func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
 }
 ```
 ~|
+Some more text
+|~
+```objc
+- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
+}
+```
+```swift
+fileprivate var firstHMILevel: SDLHMILevel = .none
+func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
+}
+```
+~|
+## Header 2
