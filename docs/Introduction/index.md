@@ -47,9 +47,7 @@ This section contains items that aren't hard requirements but are best practices
 
 ### FAQ
 
-### header123
 This section covers a few of the commonly asked questions around SDL.
-
 Sample with code:
 |~
 ```objc
@@ -115,3 +113,5 @@ sdlManager.addRpcListener(SDL.rpc.enums.FunctionID.ButtonPress, (message) => {
        // Pre sdl_javascript_suite v1.1
        sdlManager.sendRpc(response);
    }
+});
+```
