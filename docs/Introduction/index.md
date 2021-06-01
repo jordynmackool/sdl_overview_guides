@@ -50,15 +50,17 @@ This section contains items that aren't hard requirements but are best practices
 This section covers a few of the commonly asked questions around SDL.
 Sample with code:
 |~
-```objc
-- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
-}
-```
+
 ```swift
 fileprivate var firstHMILevel: SDLHMILevel = .none
 func hmiLevel(_ oldLevel: SDLHMILevel, didChangeToLevel newLevel: SDLHMILevel) {
 }
 ```
+```objc
+- (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
+}
+```
+
 ~|
 ```objc
 #import <Foundation/Foundation.h>
