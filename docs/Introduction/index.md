@@ -58,3 +58,8 @@ Sample with code:
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
 }
 ```
+[carousel!]
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+[!carousel]
