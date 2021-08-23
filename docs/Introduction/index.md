@@ -64,7 +64,8 @@ Sample with code:
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
-Text
+This is an overview of how SmartDeviceLink (SDL) works. It will go through higher level discussions about certain aspects of SDL to give an intro level of understanding. For more general information on SmartDeviceLink (SDL) as a technology, there is a white-paper available [here](https://smartdevicelink.com/resources/).
+
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
@@ -72,10 +73,13 @@ Text
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
-Text
+This is an overview of how SmartDeviceLink (SDL) works. It will go through higher level discussions about certain aspects of SDL to give an intro level of understanding. For more general information on SmartDeviceLink (SDL) as a technology, there is a white-paper available [here](https://smartdevicelink.com/resources/).
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
 ![Alt](/assets/HighLevelDiagram.png "Nothing to say")
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
+
+This is an overview of how SmartDeviceLink (SDL) works. It will go through higher level discussions about certain aspects of SDL to give an intro level of understanding. For more general information on SmartDeviceLink (SDL) as a technology, there is a white-paper available [here](https://smartdevicelink.com/resources/).
+
