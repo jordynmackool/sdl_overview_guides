@@ -62,32 +62,32 @@ Sample with code:
 Text
 
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
 Text
 
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
 Text
 
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
 Text
 
 [carousel!]
-![Alt](/path/to/img.jpg)
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg)
+![Alt](/assets/HighLevelDiagram.png)
+![Alt](/assets/HighLevelDiagram.png)
+![Alt](/assets/HighLevelDiagram.png)
 [!carousel]
 
