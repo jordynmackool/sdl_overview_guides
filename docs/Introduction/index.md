@@ -61,17 +61,7 @@ Sample with code:
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png ""Hello There"")
-![Alt](/assets/HighLevelDiagram.png ""Nothing to say"")
-![Alt](/assets/HighLevelDiagram.png ""Must have a title"")
 [!carousel]
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png ""Hello There"")
-![Alt](/assets/HighLevelDiagram.png ""Nothing to say"")
-![Alt](/assets/HighLevelDiagram.png ""Must have a title"")
-[!carousel]
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png ""Hello There"")
-![Alt](/assets/HighLevelDiagram.png ""Nothing to say"")
-![Alt](/assets/HighLevelDiagram.png ""Must have a title"")
-[!carousel]"
+
+
 
