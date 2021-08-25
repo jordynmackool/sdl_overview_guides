@@ -59,6 +59,11 @@ Sample with code:
 }
 ```
 
+[carousel!]
+![Alt](/path/to/img.jpg "image title")
+[!carousel]
+
+
 Text
 
 [carousel!]
@@ -75,19 +80,8 @@ Text
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
-Text
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
 ![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
-
-Text
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png)
-![Alt](/assets/HighLevelDiagram.png)
-![Alt](/assets/HighLevelDiagram.png)
-[!carousel]
-
