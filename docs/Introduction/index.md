@@ -70,11 +70,11 @@ Connected applications can augment a head unit's service offerings (such as navi
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
-
 Connected applications can augment a head unit's service offerings (such as navigation and weather) using SDL. Head units can feed the service specific information into their own system as a unified API for that app service type. This includes displaying service data outside the app's template view and makes that app feel integrated directly with the head unit.
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
 [!carousel]
+
 
 Connected applications can augment a head unit's service offerings (such as navigation and weather) using SDL. Head units can feed the service specific information into their own system as a unified API for that app service type. This includes displaying service data outside the app's template view and makes that app feel integrated directly with the head unit.
