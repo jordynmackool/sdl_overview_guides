@@ -60,7 +60,7 @@ Sample with code:
 ```
 
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There")
 [!carousel]
 
 
