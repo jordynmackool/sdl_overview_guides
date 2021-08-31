@@ -58,24 +58,116 @@ Sample with code:
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
 }
 ```
+One Code Snippet Alone 
 
 [carousel!]
-![Alt](/assets/HighLevelDiagram.png)
+![Alt](/assets/HighLevelDiagram.png "Hello There")
 ![Alt](/assets/HighLevelDiagram.png "Nothing to say")
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
-Connected applications can augment a head unit's service offerings (such as navigation and weather) using SDL. Head units can feed the service specific information into their own system as a unified API for that app service type. This includes displaying service data outside the app's template view and makes that app feel integrated directly with the head unit.
+Images with text
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
 ![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
-Connected applications can augment a head unit's service offerings (such as navigation and weather) using SDL. Head units can feed the service specific information into their own system as a unified API for that app service type. This includes displaying service data outside the app's template view and makes that app feel integrated directly with the head unit.
+Text
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
 [!carousel]
 
-Connected applications can augment a head unit's service offerings (such as navigation and weather) using SDL. Head units can feed the service specific information into their own system as a unified API for that app service type. This includes displaying service data outside the app's template view and makes that app feel integrated directly with the head unit.
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Multiple Snippets in a row
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+One Image 
+
+[carousel!]
+![Alt](/path/to/img.jpg "image title")
+[!carousel]
+
+No Space with text
+
+[carousel!]
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+[!carousel]
+Text
+[carousel!]
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+[!carousel]
+Text
+[carousel!]
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+[!carousel]
+
+Text above, below and between carousels with no space
+
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Text
+
+Images without Titles 
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png)
+![Alt](/assets/HighLevelDiagram.png)
+![Alt](/assets/HighLevelDiagram.png)
+[!carousel]
