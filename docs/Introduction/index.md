@@ -58,82 +58,31 @@ Sample with code:
 - (void)hmiLevel:(SDLHMILevel)oldLevel didChangeToLevel:(SDLHMILevel)newLevel {
 }
 ```
-One Code Snippet Alone 
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
-
-Images with text
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
-
-Text
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
-
-Text
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
-
-Multiple Snippets in a row
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
-[!carousel]
 
 One Image 
 
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
 
 No Space with text
 
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There)
+![Alt](/assets/HighLevelDiagram.png "Hello There)
+![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
 Text
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There)
+![Alt](/assets/HighLevelDiagram.png "Hello There)
+![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
 Text
 [carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png "Hello There)
+![Alt](/assets/HighLevelDiagram.png "Hello There)
+![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
 
 Text above, below and between carousels with no space
