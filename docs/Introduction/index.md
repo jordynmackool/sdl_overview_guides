@@ -65,30 +65,22 @@ Sample with code:
 ![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
 
-#Text above, below and between
-
-Text
+#Text - no spaces
 
 [carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
 [!carousel]
-
 Text
-
 [carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
 [!carousel]
-
 Text
-
 [carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There")
-![Alt](/assets/HighLevelDiagram.png "Nothing to say")
-![Alt](/assets/HighLevelDiagram.png "Must have a title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
+![Alt](/path/to/img.jpg "image title")
 [!carousel]
-
-Text
