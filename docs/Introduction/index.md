@@ -62,25 +62,5 @@ Sample with code:
 #One Image 
 
 [carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-[!carousel]
-
-#Text - no spaces
-
-[carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-[!carousel]
-Text
-[carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-[!carousel]
-Text
-[carousel!]
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
-![Alt](/path/to/img.jpg "image title")
+![Alt](/assets/HighLevelDiagram.png)
 [!carousel]
