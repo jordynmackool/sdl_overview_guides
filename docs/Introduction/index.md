@@ -64,3 +64,29 @@ Sample with code:
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png)
 [!carousel]
+
+This section contains items that aren't hard requirements but are best practices to ensure that the widest variety of apps work properly with your head unit.
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+This section contains items that aren't hard requirements but are best practices to ensure that the widest variety of apps work properly with your head unit.
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+This section contains items that aren't hard requirements but are best practices to ensure that the widest variety of apps work properly with your head unit.
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+This section contains items that aren't hard requirements but are best practices to ensure that the widest variety of apps work properly with your head unit.
