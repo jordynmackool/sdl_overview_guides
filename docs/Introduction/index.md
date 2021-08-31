@@ -59,8 +59,36 @@ Sample with code:
 }
 ```
 
-One Image 
+#One Image 
 
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
+
+#Text above, below and between
+
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Text
+
+[carousel!]
+![Alt](/assets/HighLevelDiagram.png "Hello There")
+![Alt](/assets/HighLevelDiagram.png "Nothing to say")
+![Alt](/assets/HighLevelDiagram.png "Must have a title")
+[!carousel]
+
+Text
