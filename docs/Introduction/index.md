@@ -64,23 +64,3 @@ One Image
 [carousel!]
 ![Alt](/assets/HighLevelDiagram.png "Hello There)
 [!carousel]
-
-No Space with text
-
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-[!carousel]
-Text
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-[!carousel]
-Text
-[carousel!]
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-![Alt](/assets/HighLevelDiagram.png "Hello There)
-[!carousel]
